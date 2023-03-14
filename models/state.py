@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-
-""" module to define a State class """
-
+"""Defines the State class."""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """ class that serves as a blueprint for State instances """
+    """Represent a state.
+    Attributes:
+        name (str): The name of the state.
+    """
+
     name = ""
